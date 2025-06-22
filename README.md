@@ -45,8 +45,8 @@
 
 ### Abstraction
 
-1. What is abstraction in C++?
-2. How is abstraction implemented in C++?
+1. What is abstraction in C++? Explain with examples.
+2. How is abstraction implemented in C++? Explain with examples.
 
 ### Memory Management
 
