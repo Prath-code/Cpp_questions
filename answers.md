@@ -256,10 +256,25 @@ public:
 
 In this example, the `Car` class abstracts the details of starting and stopping a car, while the `Driver` class uses this abstraction to drive the car without needing to know how it works internally.
 
-2. How is abstraction implemented in C++?
+2. How is abstraction implemented in C++? Explain with examples.
 
 **Answer:**
 Abstraction is implemented using abstract classes and interfaces (pure virtual functions), and by providing public methods to interact with private data.
+
+```cpp
+class AbstractShape {
+public:
+    virtual void draw() = 0; // Pure virtual function
+};
+class Circle : public AbstractShape {
+public:
+    void draw() override { cout << "Drawing Circle"; }
+};
+class Square : public AbstractShape {
+public:
+    void draw() override { cout << "Drawing Square"; }
+};
+```
 
 ### Memory Management
 
